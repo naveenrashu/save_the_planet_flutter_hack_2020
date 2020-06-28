@@ -1,4 +1,3 @@
-
 class Information {
 
   String getImageIcon(int index) {
@@ -98,7 +97,7 @@ class Information {
     if (index == 6) {
       return ' - Plastic bags are serious damage to environment \n'
           ' - They get into soil and release toxic chemicals \n'
-          ' - Wildlife harm \n'
+          ' - Harmful to wildlife  \n'
           ' - Clogged Sewage Systems \n';
     }
     if (index == 7) {
@@ -140,7 +139,7 @@ class Information {
           ' - Participate in a River Clean-up';
     }
     if (index == 5) {
-      return ' - Only run water when is needed \n'
+      return ' - Only run water when it is needed \n'
           ' - Adopt water conservation methods \n'
           ' - Reduce food waste \n'
           ' - Install rain water harvesting in every building \n';
@@ -153,8 +152,10 @@ class Information {
           ' - Save sea creatures such as Birds, Fish and Dolphins';
     }
     if (index == 7) {
-      return ' - LEDs use 90% less energy than incandescent lights\n'
-          ' - Reduces greenhouse emissions from power plants';
+      return ' - LEDs use 90% less energy than '
+          ' incandescent lights\n'
+          ' - Reduces greenhouse emissions '
+          ' from power plants';
     }
   }
 
@@ -166,7 +167,7 @@ class Information {
       return "ReDuCe REUSE ReCycLe (3R's) - WHY? ";
     }
     if (index == 2) {
-      return 'LeT\'s PlAnT a TrEe - LooK At ThE AmAzInG AdVaNtAgEs!';
+      return 'LeT\'s PlAnT a Tree - LooK At ThE AmAzInG AdVaNtAgEs!';
     }
     if (index == 3) {
       return 'EdUCaTe EvErYoNe';
@@ -199,7 +200,7 @@ class Information {
       return 'HOW?';
     }
     if (index == 4) {
-      return 'Do Good through VoLuNteering ';
+      return 'Do GooD ThRoUgh VoLuNteeRinG ';
     }
     if (index == 5) {
       return 'CoNsErVe WaTeR - HoW?';
@@ -208,7 +209,7 @@ class Information {
       return 'SaY NO To PlAsTiC - BeNeFiTs';
     }
     if (index == 7) {
-      return 'Why environmentalists always talk about light bulbs?';
+      return 'Why Environmentalists AlwaYs Talk About Light bulbs?';
     }
   }
 }

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'info_page_screen.dart';
-import 'package:savetheplanet/constants.dart';
+import 'package:savetheplanet/utilities/constants.dart';
 
 class WelcomeScreen extends StatefulWidget {
   @override

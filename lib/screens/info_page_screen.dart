@@ -3,7 +3,7 @@ import 'package:savetheplanet/components/Information.dart';
 import 'package:intro_slider/intro_slider.dart';
 import 'package:intro_slider/slide_object.dart';
 import 'package:intro_slider/dot_animation_enum.dart';
-import 'package:savetheplanet/constants.dart';
+import 'package:savetheplanet/utilities/constants.dart';
 
 class InformationPage extends StatefulWidget {
   @override
@@ -177,7 +177,9 @@ class _InformationPageState extends State<InformationPage> {
     slides.add(
       Slide(
         title: information.getSlide1DialogTitle(index),
-        styleTitle: kTextStyle.copyWith(color: Colors.red.shade900),
+        styleTitle: kTextStyle.copyWith(
+            color: Colors.red.shade900,
+            fontFamily: 'Pacifico'),
         description: information.getSlide1Description(index),
         styleDescription: kTextStyle.copyWith(color: Colors.black),
       ),
@@ -186,7 +188,8 @@ class _InformationPageState extends State<InformationPage> {
       Slide(
         marginDescription: EdgeInsets.all(8.0),
         title: information.getSlide2DialogTitle(index),
-        styleTitle: kTextStyle.copyWith(color: Colors.red.shade900),
+        styleTitle: kTextStyle.copyWith(color: Colors.red.shade900,
+            fontFamily: 'Pacifico'),
         description: information.getSlide2Description(index),
         styleDescription: kTextStyle.copyWith(color: Colors.black),
       ),
