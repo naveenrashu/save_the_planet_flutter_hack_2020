@@ -20,14 +20,18 @@ class _InformationPageState extends State<InformationPage> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         backgroundColor: Colors.black,
         appBar: AppBar(
           backgroundColor: Colors.green,
-          title: Center(
-            child: Text(
-              'SAVE THE PLANET',
-              style: kAppBarTextStyle,
+          title: FittedBox(
+            fit:BoxFit.fitWidth,
+            child: Center(
+              child: Text(
+                'SAVE THE PLANET - Tips to follow to protect our planet',
+                style: kAppBarTextStyle,
+              ),
             ),
           ),
         ),

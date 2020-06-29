@@ -9,6 +9,7 @@ The main goal of this project is to bring an awareness on why and how to save th
 What you will see
 
 - Here will see a list of simple things to do to protect the planet
-- The information are displayed in the GridTile.
-- Clicking on each tile opens up a dialog box with a slide show which gives more information
+- The information are displayed in the GridTile. GridTile contains a card.
+- It has a Gesture Detector. 
+- Tapping on each card opens up a dialog box with a slide show which gives more information
 on how and why we need to save the earth.
