@@ -13,3 +13,6 @@ What you will see
 - It has a Gesture Detector. 
 - Tapping on each card opens up a dialog box with a slide show which gives more information
 on how and why we need to save the earth.
+
+DEMO
+![video_trial](https://user-images.githubusercontent.com/13122132/85981477-8ac3ef00-b9e4-11ea-9b3b-cf55089fe74e.gif)
